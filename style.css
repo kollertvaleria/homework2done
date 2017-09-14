@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.block {
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    background-color: #2a2a2e;
+}
+.menu-block {
+    position: absolute;
+    background-color: #2a2a2e;
+}
+.article-block {
+    position: relative;
+    margin: inherit;
+    width: 0 auto;
+    background-color: #f1f1f1;
+    left: 288px;
+}
+.main-menu {
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.main-menu a {
+    display: inline-block;
+    width: 288px;
+    text-decoration: none;
+    color: #fff;
+    padding: 18px 26px;
+    border-bottom: 1px solid #34343a;
+}
+.main-menu a:hover {
+    background-color: #34343a;
+    color: #f1f1f1;
+}
+.one:before {
+    content: url("./icons/about-01.svg");
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    padding-right: 18px;
+}
+.two:before {
+    content: url("./icons/about-02.svg");
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    padding-right: 18px;
+}
+.three:before {
+    content: url("./icons/about-03-01.svg");
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    padding-right: 18px;
+}
+.four:before {
+    content: url("./icons/about-04-2-01.svg");
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    padding-right: 18px;
+}
+.four:after {
+    content: url("./icons/about-04-2.svg");
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    padding-left: 18px;
+}
+.article {
+    line-height: 1.4;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 18px 26px;
+    color: #2a2a2e;
+}
