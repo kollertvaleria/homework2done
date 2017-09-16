@@ -3,20 +3,15 @@
     margin: 0;
 }
 .block {
-    margin: 0 auto;
     width: auto;
-    height: auto;
-    background-color: #2a2a2e;
 }
 .menu-block {
     position: absolute;
     background-color: #2a2a2e;
+    height: 100%;
 }
 .article-block {
     position: relative;
-    margin: inherit;
-    width: 0 auto;
-    background-color: #f1f1f1;
     left: 288px;
 }
 .main-menu {
@@ -83,3 +78,23 @@
     padding: 18px 26px;
     color: #2a2a2e;
 }
+.scroller {
+    display: none;
+}
+.article {
+    display: none;
+}
+.scroller:target + .article {
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
